@@ -349,7 +349,9 @@
 		<Secondary Device="Keyboard" Key="Key_LeftArrow" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="CHProThrottle2" Key="Joy_3" />
+		<Primary Device="CHProThrottle2" Key="Joy_3">
+			<Modifier Device="068EC0F3" Key="Joy_3" />
+		</Primary>
 		<Secondary Device="Keyboard" Key="Key_T" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
@@ -381,7 +383,7 @@
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
-		<Primary Device="Keyboard" Key="Key_V" />
+		<Primary Device="CHProThrottle2" Key="Joy_14" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
@@ -453,11 +455,11 @@
 	<MuteButtonMode Value="mute_pushToTalk" />
 	<CqcMuteButtonMode Value="mute_pushToTalk" />
 	<UseShieldCell>
-		<Primary Device="Keyboard" Key="Key_N" />
+		<Primary Device="CHProThrottle2" Key="Joy_16" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UseShieldCell>
 	<FireChaffLauncher>
-		<Primary Device="Keyboard" Key="Key_K" />
+		<Primary Device="CHProThrottle2" Key="Joy_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
 	<PhotoCameraToggle>
