@@ -913,50 +913,62 @@
 		<Primary Device="Keyboard" Key="Key_S">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_S">
+			<Modifier Device="068EC0F3" Key="Joy_4" />
+		</Secondary>
 	</OrderRequestDock>
 	<OrderDefensiveBehaviour>
 		<Primary Device="Keyboard" Key="Key_Q">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Q">
+			<Modifier Device="068EC0F3" Key="Joy_4" />
+		</Secondary>
 	</OrderDefensiveBehaviour>
 	<OrderAggressiveBehaviour>
 		<Primary Device="Keyboard" Key="Key_E">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_E">
+			<Modifier Device="068EC0F3" Key="Joy_4" />
+		</Secondary>
 	</OrderAggressiveBehaviour>
 	<OrderFocusTarget>
 		<Primary Device="Keyboard" Key="Key_T">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="068EC0F3" Key="Joy_4" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_F">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Secondary>
 	</OrderFocusTarget>
 	<OrderHoldFire>
-		<Primary Device="068EC0F3" Key="Joy_1">
+		<Primary Device="Keyboard" Key="Key_G">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_G">
+			<Modifier Device="068EC0F3" Key="Joy_4" />
+		</Secondary>
 	</OrderHoldFire>
 	<OrderHoldPosition>
 		<Primary Device="Keyboard" Key="Key_A">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_A">
+			<Modifier Device="068EC0F3" Key="Joy_4" />
+		</Secondary>
 	</OrderHoldPosition>
 	<OrderFollow>
 		<Primary Device="Keyboard" Key="Key_D">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_D">
+			<Modifier Device="068EC0F3" Key="Joy_4" />
+		</Secondary>
 	</OrderFollow>
 	<OpenOrders>
-		<Primary Device="Keyboard" Key="Key_X">
-			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
-		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_X" />
+		<Secondary Device="Keyboard" Key="Key_X">
+			<Modifier Device="068EC0F3" Key="Joy_4" />
+		</Secondary>
 	</OpenOrders>
 </Root>
