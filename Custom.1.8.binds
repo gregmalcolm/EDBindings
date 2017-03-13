@@ -135,7 +135,7 @@
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
-	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
+	<ThrottleRange Value="" />
 	<ToggleReverseThrottleInput>
 		<Primary Device="Keyboard" Key="Key_Numpad_Enter" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -755,8 +755,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
-		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="Pad_X" />
+		<Secondary Device="CHProThrottle2" Key="Joy_2" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="GamePad" Key="Pad_B" />
