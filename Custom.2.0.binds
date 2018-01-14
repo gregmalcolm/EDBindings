@@ -17,7 +17,7 @@
 	<YawAxisRaw>
 		<Binding Device="CHProPedals" Key="Joy_ZAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.08000000" />
+		<Deadzone Value="0.12000000" />
 	</YawAxisRaw>
 	<YawLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -38,7 +38,7 @@
 	<RollAxisRaw>
 		<Binding Device="ThrustMasterWarthogJoystick" Key="Joy_XAxis" />
 		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.13000000" />
 	</RollAxisRaw>
 	<RollLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -51,7 +51,7 @@
 	<PitchAxisRaw>
 		<Binding Device="ThrustMasterWarthogJoystick" Key="Joy_YAxis" />
 		<Inverted Value="1" />
-		<Deadzone Value="0.00000000" />
+		<Deadzone Value="0.13000000" />
 	</PitchAxisRaw>
 	<PitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -62,7 +62,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PitchDownButton>
 	<LateralThrustRaw>
-		<Binding Device="CHProThrottle2" DeviceIndex="0" Key="Joy_XAxis" />
+		<Binding Device="CHProThrottle2" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.16000000" />
 	</LateralThrustRaw>
@@ -75,7 +75,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RightThrustButton>
 	<VerticalThrustRaw>
-		<Binding Device="CHProThrottle2" DeviceIndex="0" Key="Joy_YAxis" />
+		<Binding Device="CHProThrottle2" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.16000000" />
 	</VerticalThrustRaw>
@@ -94,11 +94,11 @@
 	</AheadThrust>
 	<ForwardThrustButton>
 		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_POV1Up" />
+		<Secondary Device="CHProThrottle2" Key="Joy_POV1Up" />
 	</ForwardThrustButton>
 	<BackwardThrustButton>
 		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_POV1Down" />
+		<Secondary Device="CHProThrottle2" Key="Joy_POV1Down" />
 	</BackwardThrustButton>
 	<UseAlternateFlightValuesToggle>
 		<Primary Device="{NoDevice}" Key="" />
@@ -131,11 +131,11 @@
 		<Deadzone Value="0.00000000" />
 	</VerticalThrustAlternate>
 	<ThrottleAxis>
-		<Binding Device="CHProThrottle2" DeviceIndex="0" Key="Joy_ZAxis" />
+		<Binding Device="CHProThrottle2" Key="Joy_ZAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
-	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
+	<ThrottleRange Value="" />
 	<ToggleReverseThrottleInput>
 		<Primary Device="Keyboard" Key="Key_Numpad_Enter" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -279,11 +279,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_5" />
+		<Primary Device="CHProThrottle2" Key="Joy_5" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
 	<Hyperspace>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_7" />
+		<Primary Device="CHProThrottle2" Key="Joy_7" />
 		<Secondary Device="Keyboard" Key="Key_H" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
@@ -296,7 +296,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrbitLinesToggle>
 	<SelectTarget>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_4" />
+		<Primary Device="CHProThrottle2" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTarget>
 	<CycleNextTarget>
@@ -348,7 +348,7 @@
 		<Secondary Device="Keyboard" Key="Key_LeftArrow" />
 	</CyclePreviousSubsystem>
 	<TargetNextRouteSystem>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_4">
+		<Primary Device="CHProThrottle2" Key="Joy_4">
 			<Modifier Device="ThrustMasterWarthogJoystick" Key="Joy_3" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_T" />
@@ -358,15 +358,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PrimaryFire>
 	<SecondaryFire>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_2" />
+		<Primary Device="CHProThrottle2" Key="Joy_2" />
 		<Secondary Device="ThrustMasterWarthogJoystick" Key="Joy_4" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_13" />
+		<Primary Device="CHProThrottle2" Key="Joy_13" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_15" />
+		<Primary Device="CHProThrottle2" Key="Joy_15" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
@@ -382,7 +382,7 @@
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_14" />
+		<Primary Device="CHProThrottle2" Key="Joy_14" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
@@ -450,11 +450,11 @@
 	<MuteButtonMode Value="mute_pushToTalk" />
 	<CqcMuteButtonMode Value="mute_pushToTalk" />
 	<UseShieldCell>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_16" />
+		<Primary Device="CHProThrottle2" Key="Joy_16" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UseShieldCell>
 	<FireChaffLauncher>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_3" />
+		<Primary Device="CHProThrottle2" Key="Joy_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
 	<ChargeECM>
@@ -606,6 +606,7 @@
 	</HeadLookYawAxis>
 	<MotionHeadlook Value="0" />
 	<HeadlookMotionSensitivity Value="1.00000000" />
+	<yawRotateHeadlook Value="0" />
 	<CamPitchAxis>
 		<Binding Device="ThrustMasterWarthogJoystick" Key="Joy_YAxis" />
 		<Inverted Value="1" />
@@ -633,7 +634,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamYawRight>
 	<CamTranslateYAxis>
-		<Binding Device="CHProThrottle2" DeviceIndex="0" Key="Joy_YAxis" />
+		<Binding Device="CHProThrottle2" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
@@ -646,7 +647,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="CHProThrottle2" DeviceIndex="0" Key="Joy_XAxis" />
+		<Binding Device="CHProThrottle2" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
@@ -665,11 +666,11 @@
 	</CamTranslateZAxis>
 	<CamTranslateUp>
 		<Primary Device="Keyboard" Key="Key_F" />
-		<Secondary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_POV1Left" />
+		<Secondary Device="CHProThrottle2" Key="Joy_POV1Left" />
 	</CamTranslateUp>
 	<CamTranslateDown>
 		<Primary Device="Keyboard" Key="Key_G" />
-		<Secondary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_POV1Right" />
+		<Secondary Device="CHProThrottle2" Key="Joy_POV1Right" />
 	</CamTranslateDown>
 	<CamZoomAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -751,7 +752,7 @@
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
 		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
-		<Secondary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_2" />
+		<Secondary Device="CHProThrottle2" Key="Joy_2" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
 		<Primary Device="GamePad" Key="GamePad_FaceRight" />
@@ -905,15 +906,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewPrimaryFire>
 	<MultiCrewSecondaryFire>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_2" />
+		<Primary Device="CHProThrottle2" Key="Joy_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewSecondaryFire>
 	<MultiCrewPrimaryUtilityFire>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_3" />
+		<Primary Device="CHProThrottle2" Key="Joy_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewPrimaryUtilityFire>
 	<MultiCrewSecondaryUtilityFire>
-		<Primary Device="CHProThrottle2" DeviceIndex="0" Key="Joy_14" />
+		<Primary Device="CHProThrottle2" Key="Joy_14" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewSecondaryUtilityFire>
 	<MultiCrewThirdPersonMouseXMode Value="" />
@@ -948,7 +949,7 @@
 	</MultiCrewThirdPersonPitchDownButton>
 	<MultiCrewThirdPersonMouseSensitivity Value="30.00000000" />
 	<MultiCrewThirdPersonFovAxisRaw>
-		<Binding Device="CHProThrottle2" DeviceIndex="0" Key="Joy_YAxis" />
+		<Binding Device="CHProThrottle2" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</MultiCrewThirdPersonFovAxisRaw>
@@ -1117,12 +1118,12 @@
 	</ToggleReverseThrottleInputFreeCam>
 	<MoveFreeCamForward>
 		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="CHProThrottle2" DeviceIndex="0" Key="Neg_Joy_YAxis" />
+		<Secondary Device="CHProThrottle2" Key="Neg_Joy_YAxis" />
 	</MoveFreeCamForward>
 	<MoveFreeCamBackwards>
 		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="CHProThrottle2" DeviceIndex="0" Key="Neg_Joy_XAxis">
-			<Modifier Device="CHProThrottle2" DeviceIndex="0" Key="Pos_Joy_YAxis" />
+		<Secondary Device="CHProThrottle2" Key="Neg_Joy_XAxis">
+			<Modifier Device="CHProThrottle2" Key="Pos_Joy_YAxis" />
 		</Secondary>
 	</MoveFreeCamBackwards>
 	<MoveFreeCamX>
@@ -1132,11 +1133,11 @@
 	</MoveFreeCamX>
 	<MoveFreeCamRight>
 		<Primary Device="Keyboard" Key="Key_D" />
-		<Secondary Device="CHProThrottle2" DeviceIndex="0" Key="Pos_Joy_XAxis" />
+		<Secondary Device="CHProThrottle2" Key="Pos_Joy_XAxis" />
 	</MoveFreeCamRight>
 	<MoveFreeCamLeft>
 		<Primary Device="Keyboard" Key="Key_A" />
-		<Secondary Device="CHProThrottle2" DeviceIndex="0" Key="Neg_Joy_XAxis" />
+		<Secondary Device="CHProThrottle2" Key="Neg_Joy_XAxis" />
 	</MoveFreeCamLeft>
 	<MoveFreeCamZ>
 		<Binding Device="{NoDevice}" Key="" />
