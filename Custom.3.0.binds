@@ -135,7 +135,7 @@
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
-	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
+	<ThrottleRange Value="" />
 	<ToggleReverseThrottleInput>
 		<Primary Device="Keyboard" Key="Key_Numpad_Enter" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -266,8 +266,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="ThrustMasterWarthogJoystick" Key="Joy_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="ThrustMasterWarthogJoystick" Key="Joy_3" />
 		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
@@ -358,8 +358,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PrimaryFire>
 	<SecondaryFire>
-		<Primary Device="CHProThrottle2" Key="Joy_2" />
-		<Secondary Device="ThrustMasterWarthogJoystick" Key="Joy_4" />
+		<Primary Device="ThrustMasterWarthogJoystick" Key="Joy_4" />
+		<Secondary Device="CHProThrottle2" Key="Joy_2" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
 		<Primary Device="CHProThrottle2" Key="Joy_13" />
