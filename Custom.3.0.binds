@@ -472,6 +472,10 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</EngineColourToggle>
+	<NightVisionToggle>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</NightVisionToggle>
 	<UIFocus>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -529,6 +533,14 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FriendsMenu>
+	<OpenCodexGoToDiscovery>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</OpenCodexGoToDiscovery>
+	<PlayerHUDModeToggle>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</PlayerHUDModeToggle>
 	<UI_Up>
 		<Primary Device="GamePad" Key="GamePad_DPadUp" />
 		<Secondary Device="ThrustMasterWarthogJoystick" Key="Joy_11" />
@@ -565,6 +577,14 @@
 		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="ThrustMasterWarthogJoystick" Key="Joy_10" />
 	</CyclePreviousPanel>
+	<CycleNextPage>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</CycleNextPage>
+	<CyclePreviousPage>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</CyclePreviousPage>
 	<MouseHeadlook Value="1" />
 	<MouseHeadlookInvert Value="0" />
 	<MouseHeadlookSensitivity Value="0.50000000" />
@@ -853,7 +873,10 @@
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop_Buggy>
 	<EjectAllCargo_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_J">
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo_Buggy>
 	<RecallDismissShip>
@@ -865,7 +888,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus_Buggy>
 	<FocusLeftPanel_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel_Buggy>
 	<FocusCommsPanel_Buggy>
@@ -1112,9 +1135,9 @@
 	</MoveFreeCamY>
 	<ThrottleRangeFreeCam Value="" />
 	<ToggleReverseThrottleInputFreeCam>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_Enter" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInputFreeCam>
 	<MoveFreeCamForward>
 		<Primary Device="Keyboard" Key="Key_W" />
@@ -1280,4 +1303,93 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_ClearQueue>
+	<ExplorationFSSEnter>
+		<Primary Device="GamePad" Key="GamePad_Back" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSEnter>
+	<ExplorationFSSCameraPitch>
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</ExplorationFSSCameraPitch>
+	<ExplorationFSSCameraPitchIncreaseButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSCameraPitchIncreaseButton>
+	<ExplorationFSSCameraPitchDecreaseButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSCameraPitchDecreaseButton>
+	<ExplorationFSSCameraYaw>
+		<Binding Device="GamePad" Key="GamePad_LStickX" />
+		<Inverted Value="0" />
+		<Deadzone Value="0.00000000" />
+	</ExplorationFSSCameraYaw>
+	<ExplorationFSSCameraYawIncreaseButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSCameraYawIncreaseButton>
+	<ExplorationFSSCameraYawDecreaseButton>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSCameraYawDecreaseButton>
+	<ExplorationFSSZoomIn>
+		<Primary Device="GamePad" Key="Pos_GamePad_RTrigger" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSZoomIn>
+	<ExplorationFSSZoomOut>
+		<Primary Device="GamePad" Key="Pos_GamePad_LTrigger" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSZoomOut>
+	<ExplorationFSSMiniZoomIn>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSMiniZoomIn>
+	<ExplorationFSSMiniZoomOut>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSMiniZoomOut>
+	<ExplorationFSSRadioTuningX_Raw>
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.00000000" />
+	</ExplorationFSSRadioTuningX_Raw>
+	<ExplorationFSSRadioTuningX_Increase>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSRadioTuningX_Increase>
+	<ExplorationFSSRadioTuningX_Decrease>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSRadioTuningX_Decrease>
+	<ExplorationFSSDiscoveryScan>
+		<Primary Device="GamePad" Key="GamePad_FaceDown" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSDiscoveryScan>
+	<ExplorationFSSQuit>
+		<Primary Device="GamePad" Key="GamePad_FaceRight" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSQuit>
+	<FSSMouseXMode Value="" />
+	<FSSMouseXDecay Value="1" />
+	<FSSMouseYMode Value="" />
+	<FSSMouseYDecay Value="1" />
+	<FSSMouseSensitivity Value="5.00000000" />
+	<ExplorationFSSTarget>
+		<Primary Device="CHProThrottle2" Key="Joy_2" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSTarget>
+	<ExplorationFSSShowHelp>
+		<Primary Device="CHProThrottle2" Key="Joy_4" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationFSSShowHelp>
+	<ExplorationSAAChangeScannedAreaViewToggle>
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
+	</ExplorationSAAChangeScannedAreaViewToggle>
+	<ExplorationSAAExitThirdPerson>
+		<Primary Device="GamePad" Key="GamePad_FaceRight" />
+		<Secondary Device="ThrustMasterWarthogJoystick" Key="Joy_15" />
+	</ExplorationSAAExitThirdPerson>
 </Root>
